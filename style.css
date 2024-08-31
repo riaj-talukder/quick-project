@@ -1,0 +1,46 @@
+/*common start*/
+body{
+  margin: 0;
+  padding: 0;
+}
+/*common end*/
+
+/*header start*/
+header{}
+.container{
+  width: 90%;
+  border: 1px solid rebeccapurple;
+  margin: auto;
+  overflow: hidden;
+}
+
+.logo{
+  width:15%;
+  border: 1px solid red;
+}
+.logo{
+  width:100%;
+}
+
+.menu{
+  width:45%;
+  border: 1px solid red;
+  float: right;
+}
+.menu ul{
+  float:right;
+}
+.menu ul li{
+  list-style: none;
+  float: left;
+}
+.menu ul li a{
+  font-family: sans-serif;
+  text-decoration: none;
+  margin: 0px 20px;
+  display: inline-block;
+}
+.menu ul li :last-child a{
+  margin-right: 0;
+}
+/*header end*/
